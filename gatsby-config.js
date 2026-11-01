@@ -9,7 +9,7 @@ module.exports = {
     description:
       "I'm a experienced JavaScript developer specialized in crafting unique interfaces & interactions.",
     image: "/seo/seo-default.jpg",
-    url: "https://thomasrutzer.dev",
+    url: "https://prev.thomasrutzer.dev",
   },
   plugins: [
     "gatsby-plugin-sharp",
