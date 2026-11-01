@@ -6,7 +6,7 @@
   "author": "Thomas Rutzer <hi@thomasrutzer.dev>",
   "browserslist": "> 1% or last 2 versions",
   "engines": {
-    "node": "18.14.2"
+    "node": "18.x"
   },
   "dependencies": {
     "@fontsource/ibm-plex-mono": "^4.5.2",
@@ -31,8 +31,7 @@
     "start": "npm run develop",
     "start:build": "gatsby build && gatsby serve",
     "format": "prettier --write \"src/**/*.js\"",
-    "test": "echo \"Write tests!",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public -b master"
+    "test": "echo \"Write tests!"
   },
   "devDependencies": {
     "gatsby": "^5.7.0",
@@ -47,7 +46,6 @@
     "gatsby-transformer-json": "^5.7.0",
     "gatsby-transformer-remark": "^6.7.0",
     "gatsby-transformer-sharp": "^5.7.0",
-    "gh-pages": "^2.2.0",
     "html-minifier": "^4.0.0",
     "node-sass": "^8.0.0",
     "prettier": "^1.19.1",

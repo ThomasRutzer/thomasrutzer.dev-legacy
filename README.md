@@ -18,4 +18,4 @@ Based on [Gatsby Starter](https://github.com/gatsbyjs/gatsby-starter-default)
 
 ## deployment
 
-Currently deployed with gh-pages and script `yarn run develop`
+Currently deployed with [deploy workflow](.github\workflows\deploy.yml) on Github Pages
